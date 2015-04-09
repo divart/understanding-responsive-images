@@ -1,2 +1,4 @@
-# understanding-responsive-images
-Exercise files for Tuts+ course: Understanding Responsive Images
+### Tuts+ Course: Understanding Responsive Images
+#### Instructor: Adi Purdila
+
+**Available on Tuts+ April 2015**

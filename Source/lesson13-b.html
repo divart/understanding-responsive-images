@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Understanding Responsive Images - Lesson 13</title>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="normalize.css">
+
+	<style>
+		/* General Styling */
+		body {
+			padding: 3em 0;
+			text-align: center;
+		}
+	</style>
+
+	<script src="jquery.js"></script>
+	<script src="hisrc.js"></script>
+</head>
+<body>
+
+	<div class="hisrc">
+        <img src="http://placehold.it/200x100.png" data-1x="http://placehold.it/400x200.png" data-2x="http://placehold.it/800x400.png">
+        <img src="http://placehold.it/200x100.png" data-1x="http://placehold.it/400x200.png" data-2x="http://placehold.it/800x400.png">
+    </div>
+
+	<script>
+		$( document ).ready( function() {
+			$( ".hisrc img" ).hisrc();
+		} );
+	</script>
+
+</body>
+</html>
